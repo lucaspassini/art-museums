@@ -17,3 +17,4 @@ Esse projeto utiliza as seguintes ferramentas:
 
 - [Flutter Get Started](https://flutter.dev/docs/get-started/codelab)
 - [Firebase Docs](https://firebase.google.com/docs/)
+- [Harvard API Docs](https://github.com/harvardartmuseums/api-docs)
