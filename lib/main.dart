@@ -1,6 +1,5 @@
 import 'package:app_art_museums/home.dart';
 import 'package:flutter/material.dart';
-import 'package:app_art_museums/nav.dart';
 
 void main() {
   runApp(MyApp());

@@ -8,7 +8,6 @@ class API {
     var response = await client.get(Strings.image_url);
     if (response.statusCode == 200) {
       var jsonString = response.body;
-      var jsonMap = json.decode(jsonString);
     }
   }
 }
