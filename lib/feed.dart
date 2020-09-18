@@ -12,7 +12,10 @@ class _FeedState extends State<Feed> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Feed'),
+          title: Text(
+            'Feed',
+            style: TextStyle(fontFamily: 'Montserrat'),
+          ),
           centerTitle: true,
           actions: <Widget>[
             IconButton(icon: Icon(Icons.menu), onPressed: () {})
