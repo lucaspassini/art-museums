@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Art Museums',
       theme: ThemeData(
         primaryColor: Colors.black,
+        fontFamily: 'Montserrat',
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Home(),
