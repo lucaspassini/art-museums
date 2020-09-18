@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:app_art_museums/feed.dart';
 import 'package:flutter/material.dart';
 import 'package:app_art_museums/explore.dart';
@@ -76,6 +77,21 @@ class _HomeState extends State<Home> {
                   ),
                 )),
           ]),
+=======
+import 'package:flutter/material.dart';
+
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Icon(Icons.ac_unit),
+          Icon(Icons.access_alarms),
+        ],
+      ),
+>>>>>>> ba2cc4a8581ae940ea8f6e5cf3bfa8663d4fb11b
     );
   }
 }
