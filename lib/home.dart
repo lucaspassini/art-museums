@@ -34,41 +34,48 @@ class _HomeState extends State<Home> {
         onPageChanged: _onPageChanged,
         physics: NeverScrollableScrollPhysics(),
       ),
-      bottomNavigationBar: BottomNavigationBar(onTap: _onItemTapped, items: [
-        BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home,
-              color: _selectedIndex == 0 ? Colors.black : Colors.grey,
-            ),
-            title: Text(
-              'Feed',
-              style: TextStyle(
-                color: _selectedIndex == 0 ? Colors.black : Colors.grey,
-              ),
-            )),
-        BottomNavigationBarItem(
-            icon: Icon(
-              Icons.search,
-              color: _selectedIndex == 1 ? Colors.black : Colors.grey,
-            ),
-            title: Text(
-              'Explore',
-              style: TextStyle(
-                color: _selectedIndex == 1 ? Colors.black : Colors.grey,
-              ),
-            )),
-        BottomNavigationBarItem(
-            icon: Icon(
-              Icons.favorite,
-              color: _selectedIndex == 2 ? Colors.black : Colors.grey,
-            ),
-            title: Text(
-              'Favorites',
-              style: TextStyle(
-                color: _selectedIndex == 2 ? Colors.black : Colors.grey,
-              ),
-            )),
-      ]),
+      bottomNavigationBar: BottomNavigationBar(
+          onTap: _onItemTapped,
+          showSelectedLabels: false,
+          showUnselectedLabels: false,
+          items: [
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.home,
+                  color: _selectedIndex == 0 ? Colors.black : Colors.grey,
+                ),
+                title: Text(
+                  'Feed',
+                  style: TextStyle(
+                    color: _selectedIndex == 0 ? Colors.black : Colors.grey,
+                    fontFamily: 'Montserrat',
+                  ),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.search,
+                  color: _selectedIndex == 1 ? Colors.black : Colors.grey,
+                ),
+                title: Text(
+                  'Explore',
+                  style: TextStyle(
+                    color: _selectedIndex == 1 ? Colors.black : Colors.grey,
+                    fontFamily: 'Montserrat',
+                  ),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.favorite,
+                  color: _selectedIndex == 2 ? Colors.black : Colors.grey,
+                ),
+                title: Text(
+                  'Favorites',
+                  style: TextStyle(
+                    color: _selectedIndex == 2 ? Colors.black : Colors.grey,
+                    fontFamily: 'Montserrat',
+                  ),
+                )),
+          ]),
     );
   }
 }

@@ -13,7 +13,11 @@ class _FavoritesState extends State<Favorites> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Favorites'),
+        title: Text(
+          'Favorites',
+          style:
+              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
+        ),
       ),
     );
   }

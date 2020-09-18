@@ -14,7 +14,8 @@ class _FeedState extends State<Feed> {
         appBar: AppBar(
           title: Text(
             'Feed',
-            style: TextStyle(fontFamily: 'Montserrat'),
+            style: TextStyle(
+                fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
           ),
           centerTitle: true,
           actions: <Widget>[

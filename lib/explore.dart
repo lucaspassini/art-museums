@@ -13,7 +13,11 @@ class _ExploreState extends State<Explore> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Explore'),
+        title: Text(
+          'Explore',
+          style:
+              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
+        ),
       ),
     );
   }
