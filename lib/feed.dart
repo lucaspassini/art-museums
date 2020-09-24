@@ -18,6 +18,7 @@ class _FeedState extends State<Feed> {
                 fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
           ),
           centerTitle: true,
+          leading: IconButton(icon: Icon(Icons.arrow_back), onPressed: () {}),
           actions: <Widget>[
             IconButton(icon: Icon(Icons.menu), onPressed: () {})
           ],

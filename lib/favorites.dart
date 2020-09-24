@@ -1,4 +1,6 @@
+import 'package:app_art_museums/home.dart';
 import 'package:flutter/material.dart';
+import 'package:app_art_museums/feed.dart';
 
 class Favorites extends StatefulWidget {
   Favorites({Key key}) : super(key: key);
@@ -13,6 +15,14 @@ class _FavoritesState extends State<Favorites> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
+        leading: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.push(
+                context,
+                new MaterialPageRoute(builder: (context) => Home()),
+              );
+            }),
         title: Text(
           'Favorites',
           style:
