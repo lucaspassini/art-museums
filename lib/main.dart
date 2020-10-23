@@ -1,4 +1,4 @@
-import 'package:app_art_museums/home.dart';
+import 'package:app_art_museums/pages/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -1,7 +1,7 @@
-import 'package:app_art_museums/feed.dart';
+import 'package:app_art_museums/pages/feed.dart';
 import 'package:flutter/material.dart';
-import 'package:app_art_museums/explore.dart';
-import 'package:app_art_museums/favorites.dart';
+import 'package:app_art_museums/pages/explore.dart';
+import 'package:app_art_museums/pages/favorites.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);

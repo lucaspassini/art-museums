@@ -1,14 +1,15 @@
-import 'package:app_art_museums/home.dart';
+import 'package:app_art_museums/pages/home.dart';
 import 'package:flutter/material.dart';
+import 'package:app_art_museums/pages/feed.dart';
 
-class Explore extends StatefulWidget {
-  Explore({Key key}) : super(key: key);
+class Favorites extends StatefulWidget {
+  Favorites({Key key}) : super(key: key);
 
   @override
-  _ExploreState createState() => _ExploreState();
+  _FavoritesState createState() => _FavoritesState();
 }
 
-class _ExploreState extends State<Explore> {
+class _FavoritesState extends State<Favorites> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +24,7 @@ class _ExploreState extends State<Explore> {
               );
             }),
         title: Text(
-          'Explore',
+          'Favorites',
           style:
               TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
         ),
