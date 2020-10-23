@@ -1,6 +1,5 @@
 import 'package:app_art_museums/home.dart';
 import 'package:flutter/material.dart';
-import 'package:app_art_museums/feed.dart';
 
 class Explore extends StatefulWidget {
   Explore({Key key}) : super(key: key);
