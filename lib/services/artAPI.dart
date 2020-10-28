@@ -1,24 +1,25 @@
 import 'dart:convert';
+
 import 'package:http/http.dart' as http;
+import 'package:app_art_museums/services/strings.dart';
 import 'package:app_art_museums/services/artInfo.dart';
 
 class ArtAPI {
-  static const String url =
-      'https://api.harvardartmuseums.org/image?apikey=4a57a5f5-426f-4dc1-b8c9-8a17cde9d86a';
+  Future<HarvardArtMuseums> getArt() async {
+    var client = http.Client();
+    var harvardArtMuseums;
 
-  static Future<List<Record>> getArt() async {
     try {
-      final response = await http.get(url);
+      var response = await client.get(Strings.imageurl);
       if (response.statusCode == 200) {
-        List<Record> list = parseArt(response.body);
-      }
-    } catch (e) {
-      throw new Exception(e.toString());
-    }
-  }
+        var jsonString = response.body;
+        var jsonMap = json.decode(jsonString);
 
-  static List<Record> parseArt(String responseBody) {
-    final parsed = json.decode(responseBody).cast<Map<String, dynamic>>();
-    return parsed.map<Record>((json) => Record.fromJson(json)).toList();
+        harvardArtMuseums = HarvardArtMuseums.fromJson(jsonMap);
+      }
+    } catch (Exception) {
+      return harvardArtMuseums;
+    }
+    return harvardArtMuseums;
   }
 }

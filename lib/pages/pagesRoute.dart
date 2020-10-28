@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:app_art_museums/pages/explore.dart';
 import 'package:app_art_museums/pages/favorites.dart';
 
-class Home extends StatefulWidget {
-  Home({Key key}) : super(key: key);
+class PagesRoute extends StatefulWidget {
+  PagesRoute({Key key}) : super(key: key);
   @override
-  _HomeState createState() => _HomeState();
+  _PagesRouteState createState() => _PagesRouteState();
 }
 
-class _HomeState extends State<Home> {
+class _PagesRouteState extends State<PagesRoute> {
   PageController _pageController = PageController();
   List<Widget> _screens = [Feed(), Explore(), Favorites()];
 

@@ -1,4 +1,4 @@
-import 'package:app_art_museums/pages/home.dart';
+import 'package:app_art_museums/pages/pagesRoute.dart';
 import 'package:flutter/material.dart';
 
 class Explore extends StatefulWidget {
@@ -19,7 +19,7 @@ class _ExploreState extends State<Explore> {
             onPressed: () {
               Navigator.push(
                 context,
-                new MaterialPageRoute(builder: (context) => Home()),
+                new MaterialPageRoute(builder: (context) => PagesRoute()),
               );
             }),
         title: Text(

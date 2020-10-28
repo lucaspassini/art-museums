@@ -1,6 +1,5 @@
-import 'package:app_art_museums/pages/home.dart';
+import 'package:app_art_museums/pages/pagesRoute.dart';
 import 'package:flutter/material.dart';
-import 'package:app_art_museums/pages/feed.dart';
 
 class Favorites extends StatefulWidget {
   Favorites({Key key}) : super(key: key);
@@ -20,7 +19,7 @@ class _FavoritesState extends State<Favorites> {
             onPressed: () {
               Navigator.push(
                 context,
-                new MaterialPageRoute(builder: (context) => Home()),
+                new MaterialPageRoute(builder: (context) => PagesRoute()),
               );
             }),
         title: Text(
