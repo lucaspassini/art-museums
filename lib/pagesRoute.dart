@@ -1,7 +1,8 @@
 import 'package:app_art_museums/pages/feed.dart';
-import 'package:flutter/material.dart';
+import 'package:app_art_museums/main.dart';
 import 'package:app_art_museums/pages/explore.dart';
 import 'package:app_art_museums/pages/favorites.dart';
+import 'package:flutter/material.dart';
 
 class PagesRoute extends StatefulWidget {
   PagesRoute({Key key}) : super(key: key);
@@ -11,7 +12,7 @@ class PagesRoute extends StatefulWidget {
 
 class _PagesRouteState extends State<PagesRoute> {
   PageController _pageController = PageController();
-  List<Widget> _screens = [Feed(), Explore(), Favorites()];
+  List<Widget> _screens = [Home(), Feed(), Explore(), Favorites()];
 
   int _selectedIndex = 0;
 
