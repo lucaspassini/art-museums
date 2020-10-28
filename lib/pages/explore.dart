@@ -1,4 +1,4 @@
-import 'package:app_art_museums/pagesRoute.dart';
+import 'package:app_art_museums/pages/pagesRoute.dart';
 import 'package:flutter/material.dart';
 
 class Explore extends StatefulWidget {

@@ -1,3 +1,4 @@
+import 'package:app_art_museums/googleAccount.dart';
 import 'package:app_art_museums/pages/feed.dart';
 import 'package:app_art_museums/main.dart';
 import 'package:app_art_museums/pages/explore.dart';
@@ -12,7 +13,7 @@ class PagesRoute extends StatefulWidget {
 
 class _PagesRouteState extends State<PagesRoute> {
   PageController _pageController = PageController();
-  List<Widget> _screens = [Home(), Feed(), Explore(), Favorites()];
+  List<Widget> _screens = [GoogleAccount(), Feed(), Explore(), Favorites()];
 
   int _selectedIndex = 0;
 
