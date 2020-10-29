@@ -3,7 +3,7 @@
 
 
 <h1>Art Museums</h1>
-
+<br/>
 
 ## :pushpin: Sobre o projeto
 Flutter App que busca e exibe os dados de artes disponíveis em museus utilizando o API da Harvard Art Museums.
