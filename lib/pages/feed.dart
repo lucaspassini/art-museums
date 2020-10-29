@@ -1,3 +1,5 @@
+import 'package:app_art_museums/login/login.dart';
+import 'package:app_art_museums/login/sign_in.dart';
 import 'package:app_art_museums/services/artInfo.dart';
 import 'package:app_art_museums/services/artAPI.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +30,15 @@ class _FeedState extends State<Feed> {
               TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
         ),
         centerTitle: true,
-        leading: IconButton(icon: Icon(Icons.exit_to_app), onPressed: () {}),
+        leading: IconButton(
+            icon: Icon(
+              Icons.arrow_left,
+              size: 30,
+            ),
+            onPressed: () {
+              signOutGoogle();
+              return signInWithGoogle();
+            }),
       ),
       body: Container(
         child: FutureBuilder<HarvardArtMuseums>(

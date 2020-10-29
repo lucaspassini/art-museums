@@ -15,7 +15,10 @@ class _ExploreState extends State<Explore> {
       appBar: AppBar(
         centerTitle: true,
         leading: IconButton(
-            icon: Icon(Icons.arrow_back),
+            icon: Icon(
+              Icons.arrow_left,
+              size: 30,
+            ),
             onPressed: () {
               Navigator.push(
                 context,

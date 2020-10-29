@@ -15,7 +15,10 @@ class _FavoritesState extends State<Favorites> {
       appBar: AppBar(
         centerTitle: true,
         leading: IconButton(
-            icon: Icon(Icons.arrow_back),
+            icon: Icon(
+              Icons.arrow_left,
+              size: 30,
+            ),
             onPressed: () {
               Navigator.push(
                 context,
