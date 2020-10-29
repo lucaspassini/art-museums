@@ -17,7 +17,7 @@ class _FavoritesState extends State<Favorites> {
         leading: IconButton(
             icon: Icon(
               Icons.arrow_left,
-              size: 25,
+              size: 35,
             ),
             onPressed: () {
               Navigator.push(
@@ -28,7 +28,7 @@ class _FavoritesState extends State<Favorites> {
         title: Text(
           'Favorites',
           style:
-              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
+              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w400),
         ),
       ),
     );

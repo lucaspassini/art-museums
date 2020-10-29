@@ -16,8 +16,8 @@ class _ExploreState extends State<Explore> {
         centerTitle: true,
         leading: IconButton(
             icon: Icon(
-              Icons.arrow_back_ios,
-              size: 25,
+              Icons.arrow_left,
+              size: 35,
             ),
             onPressed: () {
               Navigator.push(
@@ -28,7 +28,7 @@ class _ExploreState extends State<Explore> {
         title: Text(
           'Explore',
           style:
-              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
+              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w400),
         ),
       ),
     );

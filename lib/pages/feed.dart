@@ -27,16 +27,16 @@ class _FeedState extends State<Feed> {
         title: Text(
           'Feed',
           style:
-              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w300),
+              TextStyle(fontFamily: 'Montserrat', fontWeight: FontWeight.w400),
         ),
         centerTitle: true,
         leading: IconButton(
           icon: Icon(
-            Icons.supervised_user_circle,
+            Icons.account_circle,
             size: 30,
           ),
           onPressed: () {
-            signInWithGoogle().whenComplete(() {
+            signOutGoogle().whenComplete(() {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) {
