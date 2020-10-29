@@ -31,14 +31,22 @@ class _FeedState extends State<Feed> {
         ),
         centerTitle: true,
         leading: IconButton(
-            icon: Icon(
-              Icons.arrow_left,
-              size: 30,
-            ),
-            onPressed: () {
-              signOutGoogle();
-              return signInWithGoogle();
-            }),
+          icon: Icon(
+            Icons.supervised_user_circle,
+            size: 30,
+          ),
+          onPressed: () {
+            signInWithGoogle().whenComplete(() {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) {
+                    return Login();
+                  },
+                ),
+              );
+            });
+          },
+        ),
       ),
       body: Container(
         child: FutureBuilder<HarvardArtMuseums>(

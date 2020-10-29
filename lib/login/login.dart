@@ -1,4 +1,4 @@
-import 'package:app_art_museums/pages/feed.dart';
+import 'package:app_art_museums/pages/pagesRoute.dart';
 import 'package:flutter/material.dart';
 import 'package:app_art_museums/login/sign_in.dart';
 
@@ -30,13 +30,13 @@ class _LoginState extends State<Login> {
 
   Widget _signInButton() {
     return OutlineButton(
-      splashColor: Colors.grey,
+      splashColor: Colors.blueGrey[100],
       onPressed: () {
         signInWithGoogle().whenComplete(() {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) {
-                return Feed();
+                return PagesRoute();
               },
             ),
           );

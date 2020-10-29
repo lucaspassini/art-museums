@@ -16,8 +16,8 @@ class _ExploreState extends State<Explore> {
         centerTitle: true,
         leading: IconButton(
             icon: Icon(
-              Icons.arrow_left,
-              size: 30,
+              Icons.arrow_back_ios,
+              size: 25,
             ),
             onPressed: () {
               Navigator.push(

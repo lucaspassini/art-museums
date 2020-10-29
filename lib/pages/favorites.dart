@@ -17,7 +17,7 @@ class _FavoritesState extends State<Favorites> {
         leading: IconButton(
             icon: Icon(
               Icons.arrow_left,
-              size: 30,
+              size: 25,
             ),
             onPressed: () {
               Navigator.push(
