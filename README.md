@@ -16,8 +16,10 @@ Flutter App que busca e exibe os dados de artes disponíveis em museus utilizand
 
 Esse projeto utiliza as seguintes ferramentas:
 
+- [Harvard Art Museums API](https://www.harvardartmuseums.org/collections/api)
 - [Flutter](https://flutter.dev/)
 - [Firebase](https://firebase.google.com/)
+
 
 
 ## 🔗 Links 
