@@ -1,8 +1,11 @@
+<p align="center">
+  <img src="icons/res/mipmap-xxhdpi/art_museums_launcher.png"/>
+</p>
 
- ![art_museums_launcher](https://user-images.githubusercontent.com/47937044/97644306-b7d2ed80-1a28-11eb-9348-ac1e6e618710.png)
+ 
 
 
-<h1>Art Museums</h1>
+<h1 align="center">Art Museums</h1>
 <br/>
 
 ## :pushpin: Sobre o projeto
