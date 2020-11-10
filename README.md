@@ -11,9 +11,10 @@
 
 
 ## 🖼 Telas
-
-<img src="https://user-images.githubusercontent.com/47937044/98612003-f2af0e00-22d1-11eb-9dea-061fac46dcd1.png" alt="Tela de Feed" width="250"/>
-
+<p>
+<img src="https://user-images.githubusercontent.com/47937044/98612754-90570d00-22d3-11eb-926f-460ebbb24812.png" alt="Tela de Login" width="250"/>
+<img src="https://user-images.githubusercontent.com/47937044/98612003-f2af0e00-22d1-11eb-9dea-061fac46dcd1.png" alt="Tela de Feed"  width="250"/>
+<p/>
 
 ## :pushpin: Sobre o projeto
 Flutter App que busca e exibe os dados de artes disponíveis em museus utilizando o API da Harvard Art Museums.
