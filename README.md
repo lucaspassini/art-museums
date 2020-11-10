@@ -5,7 +5,8 @@
  
 
 
-<h1 align="center">Art Museums</h1>
+<h1 align="center">Art Museums <br/>
+ <img src="https://img.shields.io/github/license/lucaspassini/EstoqueInfo?style=flat&logo"></h1>
 <br/>
 
 ## :pushpin: Sobre o projeto
