@@ -38,6 +38,3 @@ Esse projeto utiliza as seguintes ferramentas:
 
 
 
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
