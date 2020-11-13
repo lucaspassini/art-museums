@@ -5,9 +5,7 @@
  
 
 
-<h3 align="center">Art Museums <br/> <br/>
- <img src="https://img.shields.io/github/license/lucaspassini/app_art_museums?style=flat&logo">
-</h3>
+<h3 align="center">Art Museums <br/> <br/></h3>
 
 
 ## 🖼 Telas
