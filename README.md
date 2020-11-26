@@ -15,7 +15,22 @@
 <p/>
 
 ## :pushpin: Sobre o projeto
-Flutter App que busca e exibe os dados de artes disponíveis em museus utilizando o API da Harvard Art Museums.
+Este projeto é um aplicativo Flutter que busca e exibe imagens de artes disponíveis na API da Harvard Art Museums, desenvolvido por um estudante da Universidade São Francisco, campus Itatiba.
+
+Estudante: Lucas Cristiano Passini
+
+Professor: José Matias Lemes Filho
+
+
+## :construction_worker: Instalação
+Este aplicativo foi desenvolvido em Flutter. Para instalar, é necessário ter o
+Flutter SDK instalado e em execução. Veja https://flutter.dev/docs/get-started/install
+para começar a usar o Flutter.
+
+Assim que sua máquina estiver configurada, clone este projeto e execute:
+```
+flutter run
+```
 
 
 ## 🚀 Tecnologias
