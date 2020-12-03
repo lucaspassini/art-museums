@@ -15,7 +15,7 @@
 <p/>
 
 ## :pushpin: Sobre o projeto
-Este projeto é um aplicativo Flutter que busca e exibe imagens de artes disponíveis na API da Harvard Art Museums, desenvolvido por um estudante da Universidade São Francisco, Campus Itatiba.
+Este projeto é um aplicativo Flutter que exibe imagens de artes disponíveis na API da Harvard Art Museums, desenvolvido por um estudante da Universidade São Francisco, Campus Itatiba.
 
 Estudante: Lucas Cristiano Passini
 
