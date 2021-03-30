@@ -12,7 +12,7 @@
 <img src="https://user-images.githubusercontent.com/47937044/98612003-f2af0e00-22d1-11eb-9dea-061fac46dcd1.png" alt="Tela de Feed"  width="250"/>
 <p/>
 
-## :pushpin: About this project
+## :pushpin: About 
 
 This project is a Flutter application that displays art images available at the Harvard Art Museums API, developed by a student at the Universidade São Franscisco, Campus Itatiba. 
 
