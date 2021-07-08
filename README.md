@@ -28,7 +28,7 @@ flutter run
 ```
 
 
-## :art: Page Routes
+## 📲 Page Routes
 <p align="center">
 <img src="https://user-images.githubusercontent.com/47937044/101230694-9a2b2080-3685-11eb-9b27-520cf87c5273.png" alt="Rotas do App"  width="800"/>
 <p>
