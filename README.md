@@ -35,7 +35,7 @@ flutter run
                                                                                                                                                 
 ## 🚀 Technologies
 
-The technologies below was used in this project:
+This project was developed with:
 
 - [Harvard Art Museums API](https://www.harvardartmuseums.org/collections/api)
 - [Flutter](https://flutter.dev/)
