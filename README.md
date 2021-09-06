@@ -1,6 +1,6 @@
 <p align="center">
   <img src="icons/res/mipmap-xxhdpi/art_museums_launcher.png"/>
-  <p align="center"><strong>Art Museums<strong></p>
+  <p align="center"><strong>Art Museums</strong></p>
 </p>
 
 ## 🖼 Screens
