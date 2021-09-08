@@ -1,9 +1,9 @@
 <p align="center">
   <img src="icons/res/mipmap-xxhdpi/art_museums_launcher.png"/>
-  <p align="center"><strong>Art Museums</strong></p>
+  
+## Art Museums
 </p>
 
-## 🖼 Screens
 <p align="center">
 <img src="https://user-images.githubusercontent.com/47937044/98612754-90570d00-22d3-11eb-926f-460ebbb24812.png" alt="Tela de Login" width="250"/>
 <img src="https://user-images.githubusercontent.com/47937044/98612003-f2af0e00-22d1-11eb-9dea-061fac46dcd1.png" alt="Tela de Feed"  width="254"/>
