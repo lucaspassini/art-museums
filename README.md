@@ -1,7 +1,7 @@
 <p align="center">
   <img src="icons/res/mipmap-xxhdpi/art_museums_launcher.png"/>
   
-## Art Museums
+## `Art Museums`
 </p>
 
 <p align="center">
