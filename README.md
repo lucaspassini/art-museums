@@ -1,7 +1,10 @@
 <img src="icons/res/mipmap-xxhdpi/art_museums_launcher.png" width="48"/>
   
-## `Art Museums`
+## Art Museums
  
+[![Author](https://img.shields.io/badge/author-lucaspassini-191F2B?style=flat-square)](https://github.com/lucaspassini)
+[![Stars](https://img.shields.io/github/stars/lucaspassini/app-art-museums?color=191F2B&style=flat-square)](https://github.com/lucaspassini/app-art-museums/stargazers)
+[![Forks](https://img.shields.io/github/forks/lucaspassini/app-art-museums?color=%23191F2B&style=flat-square)](https://github.com/lucaspassini/app-art-museums/network/members)
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/47937044/98612754-90570d00-22d3-11eb-926f-460ebbb24812.png" alt="Tela de Login" width="250"/>
